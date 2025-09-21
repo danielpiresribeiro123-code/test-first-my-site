@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello, World! 👋</h1>
+    <p>Welcome to my first website.</p>
+    <a class="button" href="https://example.com" target="_blank">Go to Example</a>
+  </header>
+
+  <main>
+    <h2>Gallery</h2>
+    <img src="img/exemplo.jpg" alt="Example image">
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> My Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
